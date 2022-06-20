@@ -1,6 +1,6 @@
-# Advanced Demo - CodePipeline
+#   Cat Application Code Piipeline
 
-In this demo series you're going to be implementing a full code pipeline incorportating commit, build and deploy steps.
+In this demo series, we will be implementing a full code pipeline incorportating commit, build and deploy steps.
 
 The advanced demo consists of 5 stages :-
 
@@ -12,30 +12,7 @@ The advanced demo consists of 5 stages :-
 
 ![Architecture](https://github.com/acantril/learn-cantrill-io-labs/raw/master/aws-codepipeline-catpipeline/catpipeline-arch-all.png)
 
-## Instructions
-
-- [Stage1](https://github.com/acantril/learn-cantrill-io-labs/blob/master/aws-codepipeline-catpipeline/02_LABINSTRUCTIONS/STAGE1-CODECOMMIT.md)
-- [Stage2](https://github.com/acantril/learn-cantrill-io-labs/blob/master/aws-codepipeline-catpipeline/02_LABINSTRUCTIONS/STAGE2-CODEBUILD.md)
-- [Stage3](https://github.com/acantril/learn-cantrill-io-labs/blob/master/aws-codepipeline-catpipeline/02_LABINSTRUCTIONS/STAGE3-CODEPIPELINE.md)
-- [Stage4](https://github.com/acantril/learn-cantrill-io-labs/blob/master/aws-codepipeline-catpipeline/02_LABINSTRUCTIONS/STAGE4-CODEDEPLOY.md)
-- [Stage5](https://github.com/acantril/learn-cantrill-io-labs/blob/master/aws-codepipeline-catpipeline/02_LABINSTRUCTIONS/STAGE5-CLEANUP.md)
-
-
-
-## 1-Click Installs
-No installs required for this Advanced Demo
-
-## Video Guides
-
-- [Stage0](https://youtu.be/7phmk5-iBDo) - INTRO
-- [Stage1](https://youtu.be/FmoXgFz4ODc)
-- [Stage2-PART1](https://youtu.be/gOiV10FXgq0)
-- [Stage2-PART2](https://youtu.be/g8TbqrNs4D0)
-- [Stage3](https://youtu.be/GmnOW1UmXpA)
-- [Stage4-PART1](https://youtu.be/ylY_yGHhVDk)
-- [Stage4-PART2](https://youtu.be/xSdJiTRkqr4)
-- [Stage5](https://youtu.be/JEsmwIPw25E)
-
+Services used: AWS IAM, CodeCommit, CodeBuild, CodePipeline, CodeDeploy, ECS/Fargate, ECR, S3, Docker, and ALB
 
 ## Architecture Diagrams
 
@@ -48,3 +25,5 @@ No installs required for this Advanced Demo
 - [Stage4 - PNG](https://github.com/acantril/learn-cantrill-io-labs/raw/master/aws-codepipeline-catpipeline/02_LABINSTRUCTIONS/catpipeline-arch-stage4.png)
 - [Stage4 - PDF](https://github.com/acantril/learn-cantrill-io-labs/raw/master/aws-codepipeline-catpipeline/02_LABINSTRUCTIONS/catpipeline-arch-stage4.pdf)
 
+Adopted from Adrian Cantrill
+AWS Expert
